@@ -1,10 +1,10 @@
-/* Define a color palette */
+/* main color palette */
 :root {
-  --primary-bg: #fce488;    /* soft yellow background */
-  --accent: #f89c1c;        /* orange bolt */
-  --dark: #6b4f2d;          /* brown border */
-  --text: #333;             /* general dark text */
-  --light: #fff;            /* white for contrast */
+  --primary-bg: #fce488;    
+  --accent: #f89c1c;       
+  --dark: #6b4f2d;          
+  --text: #333;             
+  --light: #fff;           
 }
 
 html, body {
