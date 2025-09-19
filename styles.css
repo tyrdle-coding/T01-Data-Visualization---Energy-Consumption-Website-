@@ -29,6 +29,7 @@ nav {
     background: var(--gray);
     padding: 20px;
     height: 100px;
+    border-bottom: 3px solid var(--accent);
 }
 
 nav .logo img {
@@ -77,4 +78,5 @@ footer {
     background: var(--gray);
     color: var(--cream);
     padding: 10px;
+    border-top: 3px solid var(--accent)
 }
