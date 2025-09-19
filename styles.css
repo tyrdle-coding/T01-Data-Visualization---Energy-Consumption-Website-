@@ -1,10 +1,10 @@
 /* main color palette */
 :root {
-  --primary-bg: #fce488;    
+  --cream: #fce488;    
   --accent: #f89c1c;       
   --dark: #6b4f2d;          
-  --text: #333;             
-  --light: #fff;           
+  --gray: #333;             
+  --white: #fff;           
 }
 
 html, body {
@@ -17,7 +17,7 @@ html, body {
 
 body {
     font-family: Arial, sans-serif;
-    background: var(--primary-bg);
+    background: var(--white);
     color: var(--text);
     line-height: 1.5;
 }
@@ -26,7 +26,7 @@ body {
 nav {
     display: flex; 
     align-items: center;
-    background: var(--dark);
+    background: var(--gray);
     padding: 20px;
     height: 100px;
 }
@@ -45,7 +45,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: var(--light);
+    color: var(--cream);
     text-decoration: none;
     padding: 5px 10px;  /* not too squeezed */
     transition: background 0.3s; /* soft and smooth animation */
@@ -58,7 +58,7 @@ nav ul li a:hover {
 
 nav ul li a.active {
     background: var(--accent);
-    color: var(--light);
+    color: var(--white);
     font-weight: bold;
     border-radius: 4px;
 }
@@ -74,7 +74,7 @@ main {
 /* footer */
 footer {
     text-align: center;
-    background: var(--dark);
-    color: var(--light);
+    background: var(--gray);
+    color: var(--cream);
     padding: 10px;
 }
